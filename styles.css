@@ -1,0 +1,193 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.ozmart{
+    color: #3b82f6;
+}
+
+.modelo{
+    font-family: px;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styles */
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 1rem;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+
+    border-right: 0px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(80),
+                cursor .9s step-end infinite alternate;
+}
+
+/*Logo Keyframes*/
+@keyframes cursor {
+    50% {border-color: transparent;}
+}
+
+@keyframes typing {
+    from { width: 0;}
+} 
+/*Logo Keyframes*/
+
+.card p span{
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+
+.nav {
+    display: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    margin-left: 1rem;
+    font-size: 0.875rem;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #3b82f6;
+    color: #fff;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+}
+
+.hero-description {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+}
+
+
+
+/* Features section styles */
+.features {
+    padding: 4rem 1rem;
+    background-color: #f9fafb;
+}
+
+.features-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Footer styles */
+.footer {
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-text {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-link {
+    font-size: 0.875rem;
+    color: #6b7280;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #333;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    .nav {
+        display: flex;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-description {
+        font-size: 1.25rem;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero-title {
+        font-size: 3.5rem;
+    }
+}
