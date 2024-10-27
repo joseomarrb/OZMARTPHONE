@@ -375,6 +375,174 @@ const telefonos = [
         procesador: "Dimensity 9000",
         almacenamiento: "256GB"
     },
+    {
+        marca: "Huawei",
+        modelo: "Huawei Mate 60 Pro",
+        precio: 1199,
+        ram: "12GB",
+        procesador: "Kirin 9000S",
+        almacenamiento: "256GB"
+    },
+    {
+        marca: "Huawei",
+        modelo: "Huawei P60 Pro",
+        precio: 1099,
+        ram: "8GB",
+        procesador: "Snapdragon 8+ Gen 1",
+        almacenamiento: "256GB"
+    },
+    {
+        marca: "Huawei",
+        modelo: "Huawei P60",
+        precio: 899,
+        ram: "8GB",
+        procesador: "Snapdragon 8+ Gen 1",
+        almacenamiento: "128GB"
+    },
+    {
+        marca: "Huawei",
+        modelo: "Huawei Mate X3",
+        precio: 1799,
+        ram: "12GB",
+        procesador: "Snapdragon 8+ Gen 1",
+        almacenamiento: "512GB"
+    },
+    {
+        marca: "Huawei",
+        modelo: "Huawei Nova 11 Pro",
+        precio: 699,
+        ram: "8GB",
+        procesador: "Snapdragon 778G",
+        almacenamiento: "256GB"
+    },
+    {
+        marca: "Huawei",
+        modelo: "Huawei Nova 11",
+        precio: 599,
+        ram: "8GB",
+        procesador: "Snapdragon 778G",
+        almacenamiento: "128GB"
+    },
+    {
+        marca: "Huawei",
+        modelo: "Huawei P50 Pro",
+        precio: 999,
+        ram: "8GB",
+        procesador: "Snapdragon 888",
+        almacenamiento: "256GB"
+    },
+    {
+        marca: "Realme",
+        modelo: "Realme GT 5",
+        precio: 699,
+        ram: "12GB",
+        procesador: "Snapdragon 8 Gen 2",
+        almacenamiento: "256GB"
+    },
+    {
+        marca: "Realme",
+        modelo: "Realme GT Neo 5",
+        precio: 499,
+        ram: "12GB",
+        procesador: "Snapdragon 8+ Gen 1",
+        almacenamiento: "256GB"
+    },
+    {
+        marca: "Realme",
+        modelo: "Realme 11 Pro+",
+        precio: 399,
+        ram: "12GB",
+        procesador: "Dimensity 7050",
+        almacenamiento: "256GB"
+    },
+    {
+        marca: "Realme",
+        modelo: "Realme 11 Pro",
+        precio: 349,
+        ram: "8GB",
+        procesador: "Dimensity 7050",
+        almacenamiento: "128GB"
+    },
+    {
+        marca: "Realme",
+        modelo: "Realme Narzo 60 Pro",
+        precio: 299,
+        ram: "8GB",
+        procesador: "Dimensity 7050",
+        almacenamiento: "128GB"
+    },
+    {
+        marca: "Realme",
+        modelo: "Realme C55",
+        precio: 199,
+        ram: "6GB",
+        procesador: "Helio G88",
+        almacenamiento: "128GB"
+    },
+    {
+        marca: "Realme",
+        modelo: "Realme 10 Pro+",
+        precio: 349,
+        ram: "8GB",
+        procesador: "Dimensity 1080",
+        almacenamiento: "128GB"
+    },
+    {
+        marca: "LG",
+        modelo: "LG Wing",
+        precio: 999,
+        ram: "8GB",
+        procesador: "Snapdragon 765G",
+        almacenamiento: "256GB"
+    },
+    {
+        marca: "LG",
+        modelo: "LG Velvet",
+        precio: 699,
+        ram: "6GB",
+        procesador: "Snapdragon 765G",
+        almacenamiento: "128GB"
+    },
+    {
+        marca: "LG",
+        modelo: "LG V60 ThinQ",
+        precio: 799,
+        ram: "8GB",
+        procesador: "Snapdragon 865",
+        almacenamiento: "128GB"
+    },
+    {
+        marca: "LG",
+        modelo: "LG G8X ThinQ",
+        precio: 699,
+        ram: "6GB",
+        procesador: "Snapdragon 855",
+        almacenamiento: "128GB"
+    },
+    {
+        marca: "LG",
+        modelo: "LG G8 ThinQ",
+        precio: 599,
+        ram: "6GB",
+        procesador: "Snapdragon 855",
+        almacenamiento: "128GB"
+    },
+    {
+        marca: "LG",
+        modelo: "LG V50 ThinQ",
+        precio: 899,
+        ram: "6GB",
+        procesador: "Snapdragon 855",
+        almacenamiento: "128GB"
+    },
+    {
+        marca: "LG",
+        modelo: "LG V40 ThinQ",
+        precio: 699,
+        ram: "6GB",
+        procesador: "Snapdragon 845",
+        almacenamiento: "64GB"
+    }
 ];
 
 
