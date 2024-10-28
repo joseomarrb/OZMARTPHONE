@@ -69,7 +69,100 @@ body {
     margin: 5px;
 }
 
+/*Buscador*/
 
+/* General Form Styling */
+#buscador {
+    background-color: #f0f0f5;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 850px;
+    margin: 40px auto;
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* Styling for the row and columns */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.columns {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Style for the labels */
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Full-width select fields */
+.u-full-width {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 14px;
+    border: 2px solid #d1d1e0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    outline: none;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Hover and focus states for select */
+.u-full-width:hover,
+.u-full-width:focus {
+    border-color: #6c63ff;
+    background-color: #f9f9ff;
+}
+
+/* Custom dropdown arrow for the select fields */
+.u-full-width {
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" fill="%236c63ff" viewBox="0 0 20 20"><path d="M5.5 7l4.5 4.5L14.5 7z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-size: 12px;
+}
+
+/* Spacing between selects */
+select + select {
+    margin-top: 15px;
+}
+
+/* Styling for the select options */
+option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .columns {
+        min-width: 100%;
+    }
+}
+
+
+
+/*Buscador*/
 
 .nav {
     display: none;

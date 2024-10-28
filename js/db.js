@@ -209,14 +209,6 @@ const telefonos = [
     },
     {
         marca: "Google",
-        modelo: "Pixel 8 Pro",
-        precio: 999,
-        ram: "12GB",
-        procesador: "Google Tensor G3",
-        almacenamiento: "128GB"
-    },
-    {
-        marca: "Google",
         modelo: "Pixel 8",
         precio: 699,
         ram: "8GB",
@@ -286,14 +278,6 @@ const telefonos = [
         ram: "6GB",
         procesador: "Snapdragon 695",
         almacenamiento: "128GB"
-    },
-    {
-        marca: "Sony",
-        modelo: "Xperia 1 IV",
-        precio: 1399,
-        ram: "12GB",
-        procesador: "Snapdragon 8 Gen 1",
-        almacenamiento: "256GB"
     },
     {
         marca: "Sony",
