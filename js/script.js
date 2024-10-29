@@ -54,6 +54,7 @@ minimo.addEventListener("change", e => {
 
 
 //Funciones
+//Crear Cards con los datos de cada telefono
 function mostrarTelefonos( telefonos ) {
     limpiarHTML();
     telefonos.forEach( telefono => {
@@ -87,6 +88,7 @@ function mostrarTelefonos( telefonos ) {
     });
 };
 
+//Crear opciones de los modelos de db.js
 function crearModelos() {
     telefonos.forEach( telefono => {
         const { modelo } = telefono;
@@ -97,14 +99,16 @@ function crearModelos() {
     })
 };
 
+//Mostrar un error si no hay elementos
 function mostrarError() {
     limpiarHTML();
     const error = document.createElement("DIV");
     error.classList.add("features-title")
-    error.textContent = "NO HAY NINGUN ELEMENTO";
+    error.textContent = "NO HAY NINGUN ELEMENTO, INTENTE CON OTRAS OPCIONES.";
     telefonosContainer.appendChild(error);
 };
 
+//Filtrar telefono por sus opciones seleccionadas
 function filtrarTelefono() {
     const filtrado = telefonos
     .filter(filtrarMarca)
@@ -116,6 +120,7 @@ function filtrarTelefono() {
     return filtrado.length ? mostrarTelefonos(filtrado) : mostrarError()
 };
 
+//Funciones para filtrar los telefonos:
 function filtrarMarca(telefono) {
     const { marca } = datosTelefono
     return marca ? telefono.marca === marca : telefono;
@@ -138,12 +143,12 @@ function filtrarRAM(telefono) {
 
 function filtrarMinimo(telefono) {
     const { minimo } = datosTelefono;
-    return minimo ? telefono.minimo >= minimo : telefono;
+    return minimo ? telefono.precio >= minimo : telefono;
 };
 
 function filtrarMaximo(telefono) {
     const { maximo } = datosTelefono;
-    return maximo ? telefono.maximo <= maximo : telefono;
+    return maximo ? telefono.precio <= maximo : telefono;
 };
 
 function limpiarHTML() {

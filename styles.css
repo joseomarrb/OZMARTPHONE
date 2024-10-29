@@ -27,9 +27,11 @@ body {
 
 /* Header styles */
 .header {
-    background-color: #fff;
+    /* background-color: #fff; */
     border-bottom: 1px solid #e5e5e5;
     padding: 1rem;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+
 }
 
 .header-content {
@@ -71,18 +73,14 @@ body {
 
 /*Buscador*/
 
-/* General Form Styling */
 #buscador {
-    background-color: #f0f0f5;
     padding: 30px;
     border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     max-width: 850px;
     margin: 40px auto;
     font-family: 'Helvetica', sans-serif;
 }
 
-/* Styling for the row and columns */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -95,7 +93,6 @@ body {
     min-width: 200px;
 }
 
-/* Style for the labels */
 label {
     font-size: 14px;
     font-weight: bold;
@@ -106,7 +103,6 @@ label {
     letter-spacing: 1px;
 }
 
-/* Full-width select fields */
 .u-full-width {
     width: 100%;
     padding: 12px 20px;
@@ -120,14 +116,12 @@ label {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-/* Hover and focus states for select */
 .u-full-width:hover,
 .u-full-width:focus {
     border-color: #6c63ff;
     background-color: #f9f9ff;
 }
 
-/* Custom dropdown arrow for the select fields */
 .u-full-width {
     appearance: none;
     background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" fill="%236c63ff" viewBox="0 0 20 20"><path d="M5.5 7l4.5 4.5L14.5 7z"/></svg>');
@@ -136,12 +130,10 @@ label {
     background-size: 12px;
 }
 
-/* Spacing between selects */
 select + select {
     margin-top: 15px;
 }
 
-/* Styling for the select options */
 option {
     padding: 10px;
     background-color: #fff;
@@ -160,12 +152,11 @@ option {
     }
 }
 
-
-
 /*Buscador*/
 
 .nav {
     display: none;
+    
 }
 
 .nav-link {
@@ -181,13 +172,17 @@ option {
 
 /* Hero section styles */
 .hero {
-    background-color: #3b82f6;
+    background-image: url(images/och.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     padding: 4rem 1rem;
     text-align: center;
 }
 
 .hero-content {
+    backdrop-filter: blur(4px);
     max-width: 800px;
     margin: 0 auto;
 }
@@ -204,12 +199,9 @@ option {
     margin-bottom: 2rem;
 }
 
-
-
-/* Features section styles */
 .features {
     padding: 4rem 1rem;
-    background-color: #f9fafb;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
 }
 
 .features-title {
@@ -222,13 +214,17 @@ option {
 /*TELEFONOS ESTILOS INICIO*/
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
-    padding: 50px;
+    padding: 20px;
 }
 .card {
     background-color: white;
+    border: 1px solid #0003;
     border-radius: 8px;
     box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -289,10 +285,9 @@ option {
 
 /*TELEFONOS ESTILOS FIN*/
 
-
 /* Footer styles */
 .footer {
-    background-color: #fff;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
     border-top: 1px solid #e5e5e5;
     padding: 1rem;
     margin-top: auto;
