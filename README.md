@@ -14,3 +14,12 @@ Poseemos una variadad de telefonos de las siguientes marcas:
 - *OnePlus*
 - *Sony*
 - *Google*
+
+## Vista del Proyecto
+No me base tanto en el darle un buen estilo porque queria hacerla funcional, asi que use cosas basicas para darle el estilo.
+
+[![Captura-de-pantalla-21.png](https://i.postimg.cc/D0vX75vL/Captura-de-pantalla-21.png)](https://postimg.cc/njWzk4Qh)
+
+[![Captura-de-pantalla-22.png](https://i.postimg.cc/T20bt809/Captura-de-pantalla-22.png)](https://postimg.cc/7bCbLWpG)
+
+[![Captura-de-pantalla-23.png](https://i.postimg.cc/X7DC0wTB/Captura-de-pantalla-23.png)](https://postimg.cc/KRBzPgcm)
